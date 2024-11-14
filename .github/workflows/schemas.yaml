@@ -4,8 +4,6 @@ name: "Schemas"
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" # Every day at midnight
   push:
     branches: ["main"]
     paths: [".github/workflows/publish-schemas.yaml"]
